@@ -1,9 +1,8 @@
 import React, { Fragment } from "react";
+import { AddForm } from "../components/Form";
 
 export const Home = () => {
     return (
-        <Fragment>
-            <h1>Home page</h1>
-        </Fragment>
+        <AddForm />
     )
 }
